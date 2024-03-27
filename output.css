@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&family=Rubik&family=Share+Tech&display=swap');
+
+body{
+  
+ background: #8e52f5;
+  color: #38fbdb;
+  font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Share Tech', sans-serif;
+
+}
+.grid-container {
+   
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Öt egyenlő szélességű oszlop */
+    gap: 5px; /* Oszlopok és sorok közötti rés */
+}
+
+.card{
+    width: auto;
+    padding: 5px;
+    background: rgba(170, 150, 255, 0.50);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+border: 1px solid rgba(170, 255, 255, 0.28);
+/* From https://css.glass */
+
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6px);
+-webkit-backdrop-filter: blur(6px);
+border: 1.4px solid rgba(170, 155, 255, 0.459);
+
+    
+}
+img{
+    width: 60px;
+    height: 60px;
+    border-radius: 80px;
+    
+}
+
+form {
+    box-sizing: border-box;
+    will-change: contents;
+    padding: 2rem;
+    border-radius: 1rem;
+  }
+
+  input{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  }
+
+  textarea{
+    width: 100%;
+  }

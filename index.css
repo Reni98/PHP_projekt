@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&family=Rubik&family=Share+Tech&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Share Tech', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* A teljes viewport magassága */
+    background-image: url('../pictures/background.jpg');
+    background-size: cover; /* A kép méretét az ablak méretéhez igazítja */
+    background-position: center; /* A képet a középre pozícionálja */
+    background-repeat: no-repeat; /* Ne ismételje meg a háttérképet */
+
+    
+}
+.container {
+    /* Itt adhatsz stílusokat a konténerednek */
+    width: 50%; /* Példa: 50%-os szélességű konténer */
+    
+    padding: 20px;
+   
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 10px solid rgb(255,	0,	141);
+   border-image-slice: 1;
+   border-width: 5px;
+   border-radius: 10px;  
+       
+}
+
+h1{
+    text-align: center;
+    
+}
+
+input, textarea{
+   width: 100%;
+   background-color: #b4e0f1;
+}
+
+.btn_design{
+    width: 150px;
+    background-color: #FF008D;
+   margin: 0 auto;
+   text-align: center;
+
+   
+    
+}
+.insert{
+    background-color: #FF008D;
+    border: none;
+    color: #00B8FF;
+   
+
+}
